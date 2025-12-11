@@ -1,0 +1,4 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/koharudin/agentslabs-calling-agent-app.git
+	branch = test
