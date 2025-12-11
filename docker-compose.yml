@@ -1,0 +1,11 @@
+services:
+  app:
+    tty: true
+    build: 
+      context: . 
+      dockerfile: local.Dockerfile 
+    ports:
+      - 82:5000
+    volumes:
+      - ./app:/app 
+    
